@@ -1,0 +1,20 @@
+.backdrop {
+  position: fixed;
+  width: 100vw;
+  height: 100vh;
+  top: 0;
+  left: 0;
+  background-color: rgba(0, 0, 0, 0.75);
+  z-index: 1000;
+}
+
+.modal {
+  position: absolute;
+  width: 60%;
+  height: min-content;
+  top: 5rem;
+  left: 50%;
+  transform: translateX(-50%);
+  margin: 0 auto;
+  background-color: #fff;
+}
